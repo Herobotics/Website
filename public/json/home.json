@@ -1,0 +1,37 @@
+{
+	"Opening": {
+		"Name": "First-Team 2500 Herobotics",
+		"Chairmans Theme": "Transforming Our World",
+		"Description": "Some text here"
+	},
+	"Links": {
+		"Sections": [
+			{
+				"Title": "Chairman's Award",
+				"Description": "The Chairman's Award is the most prestigious award available in FIRST, it honors the team that best represents a model for other teams to emulate and best embodies the purpose and goals of FIRST.",
+				"Page": "Chairmans"
+			},
+			{
+				"Title": "Upcoming Events",
+				"Description": "Some fiting text",
+				"Page": "UpcomingEvents"
+			},
+			{
+				"Title": "Meet The Team",
+				"Description": "Some fiting text",
+				"Page": "MeetTheTeam"
+			}
+		]
+	},
+	"Outreach": {
+		"Text": "Some profound, over refined text talking about outreach.",
+		"Categories": [
+			"Holiday On 44th",
+			"First Friday",
+			"This Year"
+		]
+	},
+	"Contact Us": {
+		"Text": "Something talking about contating us"
+	}
+}

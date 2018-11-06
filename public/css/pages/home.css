@@ -1,0 +1,143 @@
+.button {
+    border-radius: 25px;
+    padding: 10px;
+}
+
+#opening{
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 20vh;
+
+  background-image: url("/img/home/opening.jpg");
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+#opening * {
+  color: white;
+  text-shadow: 2px 2px #000000;
+}
+
+#opening .button {
+  background-color: white;
+  color: black;
+  text-shadow: none;
+}
+
+#links {
+  width: 100%;
+  height: 60vh;
+
+  text-align: center;
+
+  padding-top: 20vh;
+
+  background-image: url("/img/home/links.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#links > div {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+
+  width: 25%;
+  float: table;
+
+  background-color: #ffffffaa;
+
+  border-radius: 25px;
+  padding: 15px;
+  margin: 5px;
+}
+
+#links .button {
+  background-color: white;
+  color: black;
+}
+
+#outreach {
+  height: 80vh;
+  padding: 0px;
+  margin: 0px;
+
+  color: white;
+}
+
+#outreach .sideBar{
+  float: left;
+
+  width: 35%;
+  height: 100%;
+
+  text-align: center;
+  display: inline-block;
+
+  background-color: #D20001;
+}
+
+#outreach h2 {
+  margin-top: 100px;
+}
+
+#outreach .sideBar hr {
+  margin-left: 10%;
+  width: 80%;
+}
+
+#outreach .sideBar .Categories {
+  margin-top: 40px;
+}
+
+#outreach .sideBar .Categories div {
+  display: block;
+  margin-top: 5px;
+}
+
+#outreach .sideBar .Categories div:hover {
+  color: grey;
+}
+
+#outreach .images {
+  float: left;
+  width: 65%;
+  height: 100%;
+
+  background-color: #aaa;
+  display: inline-block;
+}
+
+#outreach .images * {
+  padding: 15px;
+
+  width: 45%;
+
+  background-color: #aaa;
+  display: inline-block;
+}
+
+#contactUs {
+  height: 20vh;
+  background-color: #bbb;
+
+  padding-top: 20vh;
+  text-align: center;
+}
+
+#contactUs .button {
+  background-color: white;
+  color: black;
+}
+
+#map {
+  height: 80vh;
+}
+
+#map * {
+  height: 100%;
+}

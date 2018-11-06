@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2500 Herobotics</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="/js/postData.js"></script>
+
+	<script src="/js/addHeader.js"></script>
+	<script src="/js/addFooter.js"></script>
+
+	<script src="/js/pages/aboutUs.js"></script>
+
+	<link href="/img/logos/logo.png" rel="icon">
+	<link href="/css/main.css" rel="stylesheet">
+	<link href="/css/pages/aboutUs.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+	<div class="w3-content" style="max-width:1400px">
+		<div class="w3-row">
+			<div class="w3-col l8 s12">
+				<div class="w3-card-4 w3-margin w3-white">
+					<div class="w3-container">
+						<h3><b>About Us</b></h3>
+					</div>
+					<div class="w3-container">
+						<p class="editable text" id="about"></p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-margin w3-white">
+					<div class="w3-container">
+						<h3><b>Our Mission</b></h3>
+					</div>
+					<div class="w3-container">
+						<p class="editable text" id="mission"></p>
+					</div>
+				</div>
+				<div class="w3-card-4 w3-margin w3-white">
+					<div class="w3-container">
+						<h3><b>Sub Teams</b></h3>
+					</div>
+					<div class="w3-container">
+						<p id="subTeams"></p>
+						<div align="middle" style="padding-top: 20px;"></div>
+						<div class="w3-col m8 s12">
+							<a href="/subteams"><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></a>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<div class="w3-card-4 w3-margin w3-white">
+					<div class="w3-container">
+						<h3><b>Tournament History</b></h3>
+					</div>
+					<div class="w3-container">
+						<p id="tournamentHistory"></p>
+						<div align="middle" style="padding-top: 20px;"></div>
+						<div class="w3-col m8 s12">
+							<a href="/tournamentHistory"><button class="w3-button w3-padding-large w3-white w3-border"><b>READ MORE »</b></button></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="w3-col l4">
+				<div class="w3-card w3-margin">
+					<div class="w3-container w3-padding">
+						<h4>Awards</h4>
+					</div>
+					<div id="awardsListStart"></div>
+					<div id="awardsListEnd" style="display:none"></div>
+					<div class="w3-ul w3-hoverable w3-white" style="margin-left: 2em">
+						<button class="w3-button w3-padding-large w3-white w3-border" onclick="showListEnd()"><b id="showButton">SHOW MORE</b></button>
+					</div>
+				</div>
+				<hr>
+			</div>
+		</div><br>
+	</div>
+</body>
+</html>

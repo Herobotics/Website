@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2500 Herobotics</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/postData.js"></script>
+
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+
+	<link href="/css/w3.css" rel="stylesheet">
+	<link href="/css/fonts.css" rel="stylesheet">
+
+	<link href="/img/logo.png" rel="shortcut icon">
+
+	<meta content="" name="description">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+
+	<style>
+		body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+	</style>
+</head>
+<body class="w3-light-grey">
+		<div class="w3-card-4 w3-margin w3-white">
+			<div class="w3-container">
+				<h3><b>Login</b></h3>
+			</div>
+			<div class="w3-container">
+				<div id='stat' style="text-align: center; visibility: hidden;";>
+					<div class="w3-card-4 w3-container" style="background-color: pink; display:inline-block">Error Logging in.</br>Please try again.</div>
+				</div>
+				<label for="username"><b>Username</b></label>
+				<input name="username" id="username" placeholder="Username" required="" type="text">
+
+				<label for="password"><b>Password</b></label>
+				<input name="password" id="password" placeholder="Password" required="" type="password">
+
+				<script>
+					function login(){
+						var loginData = {
+							'username': document.getElementById('username').value,
+							'password': document.getElementById('password').value
+						};
+
+						function returnFunction(responce){
+							console.log(responce)
+							if(responce.loginValue){
+								location.reload(true);
+							}
+							else {
+								var errorMsg = document.getElementById('stat');
+								errorMsg.style.visibility = 'visible';
+								errorMsg.style.margin = '20px';
+							}
+						}
+
+						postData("login", loginData, returnFunction);
+					}
+				</script>
+				<button onClick="login()">Login</button>
+		</div>
+	</div>
+</body>
+</html>

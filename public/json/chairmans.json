@@ -1,0 +1,21 @@
+{
+  "about": {
+    "text": "Here there will be a ton of text talking about Chairman's.",
+    "awards": [
+      {
+        "year": "YYY-MM-DD",
+        "event": "EVENT"
+      }
+    ]
+  },
+  "years": [
+    {
+      "year": "2016-2017",
+      "video": "",
+      "theme": "Building the future",
+      "editor": "Skyler Ihejirika",
+      "narration": "Jamin",
+      "essay": "TO GET"
+    }
+  ]
+}

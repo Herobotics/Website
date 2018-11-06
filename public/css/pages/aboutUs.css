@@ -1,0 +1,9 @@
+.year {
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid black;
+}
+
+.award div {
+  margin-left: 15px;
+}

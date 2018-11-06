@@ -1,0 +1,8 @@
+//Gen cert
+openssl req -newkey rsa:8192 -nodes -keyout privateKey.key -x509 -days 365 -out certificate.crt
+//Check cert
+openssl x509 -text -noout -in certificate.crt
+//Generate key
+winpty openssl pkcs12 -inkey privateKey.key -in certificate.crt -export -out certificate.p12
+//Check key
+winpty openssl pkcs12 -in certificate.p12 -noout -info

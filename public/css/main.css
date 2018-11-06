@@ -1,0 +1,16 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+html * {
+  margin: 0px;
+  padding: 0px;
+}
+
+iframe {
+  height: 100px;
+  width: 100%;
+}

@@ -1,0 +1,24 @@
+.header .logo img {
+  height: 100px;
+}
+
+.header {
+  background-color: #D20001;
+}
+
+.header .navigation {
+  float: right;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.header .navigation * {
+  color: white;
+  font-family: "Lucida Console", Monaco, monospace;
+  text-decoration:none !important;
+  padding-right: 15px;
+}
+
+.header .navigation *:hover {
+  color: grey;
+}
